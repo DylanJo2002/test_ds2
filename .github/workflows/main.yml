@@ -21,6 +21,9 @@ jobs:
           sudo apt-get update
           sudo apt-get upgrade  
 
+      - name: Show files
+        run: ls -a
+        
       - name: Clean project
         run: mvn clean     
 
