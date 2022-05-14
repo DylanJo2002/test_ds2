@@ -18,8 +18,8 @@ jobs:
           
       - name: Update and Upgrade ubuntu
         run: | 
-          sudo apt-get-update
-          sudo apt-get-upgrade  
+          sudo apt-get update
+          sudo apt-get upgrade  
 
       - name: Clean project
         run: mvn clean     
